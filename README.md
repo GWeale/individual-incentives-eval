@@ -4,6 +4,17 @@ Evaluate multi-agent cooperation under private objectives and shared survival ri
 
 Four agents share a damaged space station, limited batteries, and six rounds until rescue. Each sees private cargo values and sensor readings, negotiates through public and private messages, and commits actions simultaneously. Each agent earns rewards for its own cargo objectives, while station failure penalizes everyone.
 
+## Harder V2 environment
+
+[V2 mechanics and usage](docs/v2.md) add hidden faults, scenario-specific repair recipes, coupled life-support resources, delayed repairs, costly investigation, specialist roles, escrowed trades, and private contracts. Four difficulty tiers span 6–36 rounds. It supports independent model players, varied partner policies, held-out evaluation, and supplied training checkpoints.
+
+```sh
+python3 -m individual_incentives_eval v2 run --plan examples/v2-baselines.json \
+  --out ../eval-runs/v2 --difficulty hard --seeds 100 --rotations 4
+```
+
+The existing commands below retain V1. The earlier GPT pilot is not a V2 model ranking.
+
 ## Run
 
 Python 3.11+ is sufficient. Local baselines require no dependencies or API credentials.

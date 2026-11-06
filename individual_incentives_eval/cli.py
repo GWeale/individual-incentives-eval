@@ -11,6 +11,10 @@ from .runner import run_batch
 
 
 def main(argv: list[str] | None = None) -> int:
+    args_list = list(sys.argv[1:] if argv is None else argv)
+    if args_list and args_list[0] == "v2":
+        from .v2_cli import main as v2_main
+        return v2_main(args_list[1:], default_mode="individual")
     parser = argparse.ArgumentParser(description="Evaluate multi-agent cooperation under private objectives and shared survival risk.")
     sub = parser.add_subparsers(dest="command", required=True)
     run = sub.add_parser("run", help="run a versioned plan and write paired episode results")
