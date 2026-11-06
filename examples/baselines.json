@@ -1,0 +1,15 @@
+{
+  "agents": {
+    "cooperative": {"type": "baseline", "name": "cooperative"},
+    "selfish": {"type": "baseline", "name": "selfish"},
+    "random": {"type": "baseline", "name": "random"},
+    "negotiator": {"type": "baseline", "name": "negotiator"}
+  },
+  "crews": {
+    "cooperative": ["cooperative", "cooperative", "cooperative", "cooperative"],
+    "selfish": ["selfish", "selfish", "selfish", "selfish"],
+    "random": ["random", "random", "random", "random"],
+    "negotiators": ["negotiator", "negotiator", "negotiator", "negotiator"],
+    "one-selfish": ["selfish", "cooperative", "cooperative", "cooperative"]
+  }
+}

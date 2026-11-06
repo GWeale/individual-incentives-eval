@@ -1,0 +1,17 @@
+{
+  "agents": {
+    "local-model": {
+      "type": "chat",
+      "model": "replace-with-an-installed-local-model",
+      "base_url": "http://localhost:11434/v1",
+      "max_tokens": 1024,
+      "temperature": 0,
+      "timeout": 60
+    },
+    "cooperative": {"type": "baseline", "name": "cooperative"}
+  },
+  "crews": {
+    "mixed": ["local-model", "cooperative", "cooperative", "cooperative"],
+    "same-model": ["local-model", "local-model", "local-model", "local-model"]
+  }
+}

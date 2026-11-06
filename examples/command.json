@@ -1,0 +1,6 @@
+{
+  "agents": {
+    "command": {"type": "command", "argv": ["python3", "-m", "examples.command_agent"], "timeout": 30}
+  },
+  "crews": {"command": ["command", "command", "command", "command"]}
+}

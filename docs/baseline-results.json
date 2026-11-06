@@ -1,0 +1,223 @@
+{
+  "protocol": "station-v1",
+  "source_hash": "2a23caccd9a5e5da1b734e2b9e710e20aaa4594ba1f97dfa21924e1dcca1f6a2",
+  "scenario_seeds": 20,
+  "rotations": 4,
+  "evals": 2,
+  "crews": 5,
+  "completed_episodes": 800,
+  "errors": 0,
+  "scripted_policies_only": true,
+  "rows": [
+    {
+      "eval": "individual",
+      "crew": "cooperative",
+      "completed": 80,
+      "survival": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "scenario_count": 20
+      },
+      "realized_team_completion": {
+        "mean": 0.36695943153950195,
+        "ci95": [
+          0.34878551737184565,
+          0.38577842316446803
+        ],
+        "scenario_count": 20
+      }
+    },
+    {
+      "eval": "individual",
+      "crew": "negotiators",
+      "completed": 80,
+      "survival": {
+        "mean": 0.7,
+        "ci95": [
+          0.5,
+          0.9
+        ],
+        "scenario_count": 20
+      },
+      "realized_team_completion": {
+        "mean": 0.45566990155795345,
+        "ci95": [
+          0.32116770359276275,
+          0.5844289182577301
+        ],
+        "scenario_count": 20
+      }
+    },
+    {
+      "eval": "individual",
+      "crew": "one-selfish",
+      "completed": 80,
+      "survival": {
+        "mean": 0.975,
+        "ci95": [
+          0.925,
+          1.0
+        ],
+        "scenario_count": 20
+      },
+      "realized_team_completion": {
+        "mean": 0.48663352568203977,
+        "ci95": [
+          0.4564567946138638,
+          0.5126944660272755
+        ],
+        "scenario_count": 20
+      }
+    },
+    {
+      "eval": "individual",
+      "crew": "random",
+      "completed": 80,
+      "survival": {
+        "mean": 0.3,
+        "ci95": [
+          0.15,
+          0.5
+        ],
+        "scenario_count": 20
+      },
+      "realized_team_completion": {
+        "mean": 0.10887994986385559,
+        "ci95": [
+          0.039695420506912445,
+          0.19522163796861378
+        ],
+        "scenario_count": 20
+      }
+    },
+    {
+      "eval": "individual",
+      "crew": "selfish",
+      "completed": 80,
+      "survival": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "scenario_count": 20
+      },
+      "realized_team_completion": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "scenario_count": 20
+      }
+    },
+    {
+      "eval": "shared",
+      "crew": "cooperative",
+      "completed": 80,
+      "survival": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "scenario_count": 20
+      },
+      "realized_team_completion": {
+        "mean": 0.36695943153950195,
+        "ci95": [
+          0.34878551737184565,
+          0.38577842316446803
+        ],
+        "scenario_count": 20
+      }
+    },
+    {
+      "eval": "shared",
+      "crew": "negotiators",
+      "completed": 80,
+      "survival": {
+        "mean": 0.7,
+        "ci95": [
+          0.5,
+          0.9
+        ],
+        "scenario_count": 20
+      },
+      "realized_team_completion": {
+        "mean": 0.45566990155795345,
+        "ci95": [
+          0.32116770359276275,
+          0.5844289182577301
+        ],
+        "scenario_count": 20
+      }
+    },
+    {
+      "eval": "shared",
+      "crew": "one-selfish",
+      "completed": 80,
+      "survival": {
+        "mean": 0.975,
+        "ci95": [
+          0.925,
+          1.0
+        ],
+        "scenario_count": 20
+      },
+      "realized_team_completion": {
+        "mean": 0.48663352568203977,
+        "ci95": [
+          0.4564567946138638,
+          0.5126944660272755
+        ],
+        "scenario_count": 20
+      }
+    },
+    {
+      "eval": "shared",
+      "crew": "random",
+      "completed": 80,
+      "survival": {
+        "mean": 0.3,
+        "ci95": [
+          0.15,
+          0.5
+        ],
+        "scenario_count": 20
+      },
+      "realized_team_completion": {
+        "mean": 0.10887994986385559,
+        "ci95": [
+          0.039695420506912445,
+          0.19522163796861378
+        ],
+        "scenario_count": 20
+      }
+    },
+    {
+      "eval": "shared",
+      "crew": "selfish",
+      "completed": 80,
+      "survival": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "scenario_count": 20
+      },
+      "realized_team_completion": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "scenario_count": 20
+      }
+    }
+  ]
+}
